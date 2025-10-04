@@ -1,37 +1,493 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-04T13:21:39 IST" name="Default suite" finished-at="2025-10-04T13:22:11 IST" duration-ms="31823">
+  <suite started-at="2025-10-04T20:28:21 IST" name="Default suite" finished-at="2025-10-04T20:32:32 IST" duration-ms="251104">
     <groups>
     </groups>
-    <test started-at="2025-10-04T13:21:39 IST" name="Default test" finished-at="2025-10-04T13:22:11 IST" duration-ms="31823">
-      <class name="com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM@3153ddfc]" started-at="2025-10-04T13:21:39 IST" name="setup" finished-at="2025-10-04T13:21:41 IST" duration-ms="1869" status="PASS">
+    <test started-at="2025-10-04T20:28:21 IST" name="Default test" finished-at="2025-10-04T20:32:32 IST" duration-ms="251104">
+      <class name="com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:23 IST" name="setup" finished-at="2025-10-04T20:28:25 IST" duration-ms="2151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginPositiveVWO()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM@3153ddfc]" started-at="2025-10-04T13:21:41 IST" name="testLoginPositiveVWO" finished-at="2025-10-04T13:22:00 IST" duration-ms="18637" status="PASS">
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:25 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:28:37 IST" duration-ms="12211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.brown756@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nwm1Va8c3X]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginPositiveVWO -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM@3153ddfc]" started-at="2025-10-04T13:22:00 IST" name="tearDown" finished-at="2025-10-04T13:22:00 IST" duration-ms="322" status="PASS">
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:37 IST" name="tearDown" finished-at="2025-10-04T20:28:38 IST" duration-ms="619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM@3153ddfc]" started-at="2025-10-04T13:22:00 IST" name="setup" finished-at="2025-10-04T13:22:01 IST" duration-ms="1154" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:38 IST" name="setup" finished-at="2025-10-04T20:28:39 IST" duration-ms="1594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_negative_vwo_login()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM@3153ddfc]" started-at="2025-10-04T13:22:01 IST" name="test_negative_vwo_login" finished-at="2025-10-04T13:22:10 IST" duration-ms="9220" status="PASS">
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:39 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:28:51 IST" duration-ms="11941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike.johnson378@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uBtf4dIXCA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_negative_vwo_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM@3153ddfc]" started-at="2025-10-04T13:22:10 IST" name="tearDown" finished-at="2025-10-04T13:22:11 IST" duration-ms="405" status="PASS">
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:51 IST" name="tearDown" finished-at="2025-10-04T20:28:52 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_02_Prop_POM -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:52 IST" name="setup" finished-at="2025-10-04T20:28:53 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:28:53 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:29:05 IST" duration-ms="11728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maria.smith343@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YXBqV6cMlr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:05 IST" name="tearDown" finished-at="2025-10-04T20:29:05 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:05 IST" name="setup" finished-at="2025-10-04T20:29:07 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:07 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:29:15 IST" duration-ms="8551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda.wilson568@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ltmCBRyPF0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:15 IST" name="tearDown" finished-at="2025-10-04T20:29:16 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:16 IST" name="setup" finished-at="2025-10-04T20:29:17 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:17 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:29:26 IST" duration-ms="8793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[noah.davis118@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0tpRauzlhM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:26 IST" name="tearDown" finished-at="2025-10-04T20:29:27 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:27 IST" name="setup" finished-at="2025-10-04T20:29:28 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:28 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:29:40 IST" duration-ms="11790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chris.jones992@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6oPCeMzdkN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:40 IST" name="tearDown" finished-at="2025-10-04T20:29:40 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:40 IST" name="setup" finished-at="2025-10-04T20:29:42 IST" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:42 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:29:52 IST" duration-ms="10491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emma.rodriguez870@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1QkvMeKFW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:52 IST" name="tearDown" finished-at="2025-10-04T20:29:52 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:52 IST" name="setup" finished-at="2025-10-04T20:29:54 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:29:54 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:30:03 IST" duration-ms="9467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alex.williams438@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iErfhDLzJp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:03 IST" name="tearDown" finished-at="2025-10-04T20:30:04 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:04 IST" name="setup" finished-at="2025-10-04T20:30:05 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:05 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:30:17 IST" duration-ms="11579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane.garcia953@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h4BpsRnZ2M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:17 IST" name="tearDown" finished-at="2025-10-04T20:30:17 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:17 IST" name="setup" finished-at="2025-10-04T20:30:19 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:19 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:30:27 IST" duration-ms="8440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[olivia.miller62@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[q8RfXBkCGs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:27 IST" name="tearDown" finished-at="2025-10-04T20:30:28 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:28 IST" name="setup" finished-at="2025-10-04T20:30:29 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:29 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:30:42 IST" duration-ms="12360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.wilson479@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F3XpOqJsHg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:42 IST" name="tearDown" finished-at="2025-10-04T20:30:42 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:42 IST" name="setup" finished-at="2025-10-04T20:30:44 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:44 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:30:52 IST" duration-ms="8817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chris.brown670@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QmL17KwWUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:52 IST" name="tearDown" finished-at="2025-10-04T20:30:53 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:53 IST" name="setup" finished-at="2025-10-04T20:30:54 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:30:54 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:31:04 IST" duration-ms="9927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda.davis456@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[i5cOm0KNtj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:04 IST" name="tearDown" finished-at="2025-10-04T20:31:04 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:04 IST" name="setup" finished-at="2025-10-04T20:31:06 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:06 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:31:16 IST" duration-ms="9455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maria.johnson234@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uHGvcie9kR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:16 IST" name="tearDown" finished-at="2025-10-04T20:31:16 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:16 IST" name="setup" finished-at="2025-10-04T20:31:17 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:17 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:31:30 IST" duration-ms="13175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[noah.smith129@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DOfNXrcm1q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:30 IST" name="tearDown" finished-at="2025-10-04T20:31:31 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:31 IST" name="setup" finished-at="2025-10-04T20:31:32 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:32 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:31:43 IST" duration-ms="10734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mike.williams843@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YdH5m8Kl3W]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:43 IST" name="tearDown" finished-at="2025-10-04T20:31:43 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:43 IST" name="setup" finished-at="2025-10-04T20:31:44 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:44 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:31:55 IST" duration-ms="11003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jane.jones370@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jZ6KyUqJRV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:55 IST" name="tearDown" finished-at="2025-10-04T20:31:56 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:56 IST" name="setup" finished-at="2025-10-04T20:31:57 IST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:31:57 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:32:07 IST" duration-ms="10120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emma.garcia725@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b5mCAXoLsn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:32:07 IST" name="tearDown" finished-at="2025-10-04T20:32:08 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:32:08 IST" name="setup" finished-at="2025-10-04T20:32:09 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:32:09 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:32:20 IST" duration-ms="10571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alex.rodriguez981@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y7CebnDR9i]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:32:20 IST" name="tearDown" finished-at="2025-10-04T20:32:20 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:32:20 IST" name="setup" finished-at="2025-10-04T20:32:21 IST" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_vwo_login(java.lang.String,java.lang.String)[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:32:21 IST" name="test_vwo_login" data-provider="getData" finished-at="2025-10-04T20:32:32 IST" duration-ms="10470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[olivia.miller720@thetestingacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GCVEdYzFqS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_vwo_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting@6f0628de]" started-at="2025-10-04T20:32:32 IST" name="tearDown" finished-at="2025-10-04T20:32:32 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.thetestingacademy.tests.vwo.pageObjectModelTC.DataDrivenTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 
 import com.thetestingacademy.base.CommonToAllTest;
 import com.thetestingacademy.driver.DriverManager;
-import com.thetestingacademy.pages.pageObjectModel.vwo.DashBoardPage;
-import com.thetestingacademy.pages.pageObjectModel.vwo.LoginPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.DashBoardPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.LoginPage;
 import com.thetestingacademy.utils.PropertiesReader;
 
 import io.qameta.allure.Description;
@@ -56,8 +56,8 @@ public class TestVWOLogin_02_Prop_POM extends CommonToAllTest{
 		logger.info("Starting the Testcases Page Object Model");
         
      // Page Class Code (POM Code) - 2 - L
-      LoginPage loginPage = new LoginPage(DriverManager.getDriver());
-      loginPage.loginToVWOLoginValidCreds(PropertiesReader.readKey("username"), PropertiesReader.readKey("password"));
+      LoginPage loginPage_VWO = new LoginPage(DriverManager.getDriver());
+      loginPage_VWO.loginToVWOLoginValidCreds(PropertiesReader.readKey("username"), PropertiesReader.readKey("password"));
       
       DashBoardPage dashBoardPage = new DashBoardPage(DriverManager.getDriver());
       String usernameLoggedIn = dashBoardPage.loggedInUserName();

@@ -3,8 +3,8 @@ package com.thetestingacademy.tests.vwo.pageObjectModelTC;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.thetestingacademy.pages.pageObjectModel.vwo.DashBoardPage;
-import com.thetestingacademy.pages.pageObjectModel.vwo.LoginPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.DashBoardPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.LoginPage;
 import com.thetestingacademy.utils.PropertiesReader;
 
 import io.qameta.allure.Description;
@@ -49,8 +49,8 @@ public class TestVWOLogin_01_Normal_POM  {
        WebDriver driver = new ChromeDriver();
         
      // Page Class Code (POM Code) - 2 - L
-      LoginPage loginPage = new LoginPage(driver);
-      loginPage.loginToVWOLoginValidCreds(PropertiesReader.readKey("username"), PropertiesReader.readKey("password"));
+      LoginPage loginPage_VWO = new LoginPage(driver);
+      loginPage_VWO.loginToVWOLoginValidCreds(PropertiesReader.readKey("username"), PropertiesReader.readKey("password"));
       
       DashBoardPage dashBoardPage = new DashBoardPage(driver);
       String usernameLoggedIn = dashBoardPage.loggedInUserName();
