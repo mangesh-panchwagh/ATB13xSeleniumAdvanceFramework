@@ -89,3 +89,8 @@
 2025-10-04 20:32:07 INFO  DataDrivenTesting - Asserting the Invalid credentials
 2025-10-04 20:32:20 INFO  DataDrivenTesting - Asserting the Invalid credentials
 2025-10-04 20:32:32 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-05 00:31:39 INFO  TestVWOLogin_PF - Starting the Testcases Page Factory
+2025-10-05 00:33:43 INFO  TestVWOLogin_PF - Starting the Testcases Page Factory
+2025-10-05 00:36:37 INFO  TestVWOLogin_PF - Starting the Testcases Page Factory
+2025-10-05 00:36:51 INFO  TestVWOLogin_PF - Error msg I got Your email, password, IP address or location did not match
+2025-10-05 00:36:51 INFO  TestVWOLogin_PF - Finished the Testcases Page Factory

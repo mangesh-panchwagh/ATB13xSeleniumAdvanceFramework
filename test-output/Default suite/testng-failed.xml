@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_03_Prop_Improved_POM">
+      <class name="com.thetestingacademy.tests.vwo.pageFactoryTC.TestVWOLogin_PF">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testLoginPositiveVWO"/>
+          <include name="testLoginNegativeVWO_PF"/>
         </methods>
-      </class> <!-- com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_03_Prop_Improved_POM -->
+      </class> <!-- com.thetestingacademy.tests.vwo.pageFactoryTC.TestVWOLogin_PF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
