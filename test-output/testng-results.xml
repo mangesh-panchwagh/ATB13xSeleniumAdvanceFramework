@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-05T00:36:34 IST" name="Default suite" finished-at="2025-10-05T00:36:52 IST" duration-ms="18396">
+  <suite started-at="2025-10-09T22:27:49 IST" name="Suite" finished-at="2025-10-09T22:28:26 IST" duration-ms="36887">
     <groups>
     </groups>
-    <test started-at="2025-10-05T00:36:34 IST" name="Default test" finished-at="2025-10-05T00:36:52 IST" duration-ms="18396">
-      <class name="com.thetestingacademy.tests.vwo.pageFactoryTC.TestVWOLogin_PF">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.thetestingacademy.tests.vwo.pageFactoryTC.TestVWOLogin_PF@475b7792]" started-at="2025-10-05T00:36:34 IST" name="setup" finished-at="2025-10-05T00:36:37 IST" duration-ms="2695" status="PASS">
+    <test started-at="2025-10-09T22:27:49 IST" name="Test" finished-at="2025-10-09T22:28:26 IST" duration-ms="36887">
+      <class name="com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_01_Normal_POM">
+        <test-method signature="test_negative_vwo_login()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_01_Normal_POM@4331d187]" started-at="2025-10-09T22:27:49 IST" name="test_negative_vwo_login" finished-at="2025-10-09T22:28:06 IST" duration-ms="16635" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLoginNegativeVWO_PF()[pri:0, instance:com.thetestingacademy.tests.vwo.pageFactoryTC.TestVWOLogin_PF@475b7792]" started-at="2025-10-05T00:36:37 IST" name="testLoginNegativeVWO_PF" finished-at="2025-10-05T00:36:51 IST" duration-ms="14684" status="PASS">
+        </test-method> <!-- test_negative_vwo_login -->
+        <test-method signature="testLoginPositiveVWO()[pri:0, instance:com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_01_Normal_POM@4331d187]" started-at="2025-10-09T22:28:06 IST" name="testLoginPositiveVWO" finished-at="2025-10-09T22:28:26 IST" duration-ms="19825" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginNegativeVWO_PF -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.tests.vwo.pageFactoryTC.TestVWOLogin_PF@475b7792]" started-at="2025-10-05T00:36:52 IST" name="tearDown" finished-at="2025-10-05T00:36:52 IST" duration-ms="748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.thetestingacademy.tests.vwo.pageFactoryTC.TestVWOLogin_PF -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testLoginPositiveVWO -->
+      </class> <!-- com.thetestingacademy.tests.vwo.pageObjectModelTC.TestVWOLogin_01_Normal_POM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
