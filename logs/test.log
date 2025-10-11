@@ -94,3 +94,41 @@
 2025-10-05 00:36:37 INFO  TestVWOLogin_PF - Starting the Testcases Page Factory
 2025-10-05 00:36:51 INFO  TestVWOLogin_PF - Error msg I got Your email, password, IP address or location did not match
 2025-10-05 00:36:51 INFO  TestVWOLogin_PF - Finished the Testcases Page Factory
+2025-10-09 23:01:45 INFO  TestVWOLogin_02_Prop_POM - Starting the Testcases Page Object Model
+2025-10-09 23:02:04 INFO  TestVWOLogin_02_Prop_POM - Done the Test cases
+2025-10-09 23:02:05 INFO  TestVWOLogin_02_Prop_POM - Starting the Testcases Page Object Model
+2025-10-09 23:02:13 INFO  TestVWOLogin_02_Prop_POM - Asserting the invalid credentials
+2025-10-09 23:02:36 INFO  TestVWOLogin_03_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:02:49 INFO  TestVWOLogin_03_Prop_Improved_POM - Done the Test cases
+2025-10-09 23:02:53 INFO  TestVWOLogin_03_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:03:02 INFO  TestVWOLogin_03_Prop_Improved_POM - Asserting the invalid credentials
+2025-10-09 23:03:30 INFO  TestVWOLogin_04_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:03:38 INFO  TestVWOLogin_04_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:03:47 INFO  TestVWOLogin_04_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:03:56 INFO  TestVWOLogin_04_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:04:03 INFO  TestVWOLogin_04_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:04:23 INFO  TestVWOLogin_05_TakeScreen_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:04:30 INFO  TestVWOLogin_05_TakeScreen_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:04:37 INFO  TestVWOLogin_05_TakeScreen_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:04:45 INFO  TestVWOLogin_05_TakeScreen_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:04:54 INFO  TestVWOLogin_05_TakeScreen_Retry_Prop_Improved_POM - Starting the Testcases Page Object Model
+2025-10-09 23:06:34 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:06:45 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:06:55 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:07:05 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:07:14 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:07:21 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:07:31 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:07:41 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:07:51 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:08:00 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:08:11 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:08:21 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:08:31 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:08:41 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:08:50 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:09:00 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:09:10 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:09:20 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:09:28 INFO  DataDrivenTesting - Asserting the Invalid credentials
+2025-10-09 23:09:36 INFO  DataDrivenTesting - Asserting the Invalid credentials

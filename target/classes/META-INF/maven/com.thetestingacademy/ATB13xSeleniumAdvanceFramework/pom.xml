@@ -70,10 +70,10 @@
 			<artifactId>poi-ooxml-schemas</artifactId>
 			<version>4.1.2</version>
 		</dependency>
-		<dependency>
-			<groupId>com.hyt</groupId>
-			<artifactId>PracticeTestNG</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.hyt</groupId>-->
+<!--			<artifactId>PracticeTestNG</artifactId>-->
+<!--			<version>0.0.1-SNAPSHOT</version>-->
+<!--		</dependency>-->
 	</dependencies>
 </project>
